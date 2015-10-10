@@ -1,0 +1,33 @@
+.swlang
+{
+	font-size: 14px;
+	color:#fff;
+	margin-top: 10px;
+}
+
+.swlang a
+{
+	color:#fff;
+}
+
+.navbar-custom .nav li a
+{
+	font-size: 20px;
+}
+
+.navbar-brand
+{
+	font-size: 24px;
+}
+
+h3.post-subtitle
+{
+	font-size: 20px;
+	font-weight: 300;
+  	margin-bottom: 10px;
+}
+
+.flexslider
+{
+	border:0px;
+}

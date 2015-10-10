@@ -1,0 +1,50 @@
+.swlang
+{
+	margin-top: 20px;
+}
+
+ul.chlang
+{
+	list-style-type: none;
+	padding:0px;
+	margin: 0px;
+	float: right;
+}
+
+ul.chlang li
+{
+	float: left;
+	margin-right: 5px;
+}
+
+ul.chlang li a
+{
+	padding: 5px;
+	background-color: #04459E;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.btn-offet
+{
+	padding-left: 0px;
+	margin-bottom: 10px;
+}
+
+.btn-facebook
+{
+	background-color: #385995;
+	border: none;
+}
+
+.btn-google
+{
+	background-color: #d13e29;
+	border: none;
+}
+
+.btn-google:hover,.btn-google:visited
+{
+	background-color: #d13e29;
+}
+

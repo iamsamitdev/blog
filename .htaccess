@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Redirect Error 404page
+ErrorDocument 404 http://localhost/blog/404.php
+
+# All file name
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Send to blog_detail with parameter
+RewriteRule ^(.*).html$ blog_detail.php?path_url=$1.html
+
+<FilesMatch "\.(?i:jpg|gif|png|pdf)$">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</FilesMatch>
